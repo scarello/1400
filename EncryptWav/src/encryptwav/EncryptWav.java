@@ -24,6 +24,7 @@ import java.util.Scanner;
  */
 public class EncryptWav
 {
+    //test
     private static String key, IV;
     public static void main(String[] args)
     {
