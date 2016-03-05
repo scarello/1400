@@ -62,7 +62,6 @@ public class Mmonical_Dates
                     }
                     else if (day1 > 30)
                         continue;
-
                 }
                 else{
                     if( month1 <= 7){
@@ -119,7 +118,6 @@ public class Mmonical_Dates
                     else if (day2 > 30){
                         continue;
                     }
-
                 }
                 else{
                     if( month2 > 7){
@@ -212,8 +210,8 @@ public class Mmonical_Dates
                 else if (mcount >= 8) {
                     if (mcount % 2 == 0)
                         dcountTmp += 31;
-                else
-                    dcountTmp += 30;
+                    else
+                        dcountTmp += 30;
                 }
 //                if ( leapyear2 && mcount == 2 )
 //                {
@@ -239,27 +237,21 @@ public class Mmonical_Dates
         
         if ( month1 != month2 || year1 != year2 )
         {
-            if (month1 == 2 && leapyear1){
+            if (month1 == 2 && leapyear1)
                 dcountTmp += 29 - day1;
-            }
-            else if (month1 == 2){
+            else if (month1 == 2)
                 dcountTmp += 28 - day1;
-            }
             else if (month1 < 8){
-                if (month1 % 2 == 0){
+                if (month1 % 2 == 0)
                     dcountTmp += 30 - day1;
-                }
-                else if (month1 % 2 == 1) {
+                else if (month1 % 2 == 1)
                     dcountTmp += 31 - day1;
-                }
             }
             else if (month1 >= 8) {
-                if (month1 % 2 == 0){
+                if (month1 % 2 == 0)
                     dcountTmp += 31 - day1;
-                }
-                else if (month1% 2 == 1){
+                else if (month1% 2 == 1)
                     dcountTmp += 30 - day1;
-                }
             }
             dcountTmp += day2;
             dcount += dcountTmp;
@@ -297,34 +289,3 @@ public class Mmonical_Dates
 
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
