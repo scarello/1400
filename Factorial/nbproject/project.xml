@@ -3,11 +3,7 @@
     <type>org.netbeans.modules.java.j2seproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
-<<<<<<< HEAD
-            <name>mmonical_ROT13Arrays</name>
-=======
-            <name>mmonical_ReadingMethods</name>
->>>>>>> origin/master
+            <name>Factorial</name>
             <source-roots>
                 <root id="src.dir"/>
             </source-roots>

@@ -14,17 +14,16 @@ public class Mmonical_ROT13Arrays {
     /**
      * @param args the command line arguments
      */
+    public static Scanner get = new Scanner (System.in);
     public static void main(String[] args) {
         // TODO code application logic here
     //Name: Michael J Monical
 //Class: 1400-003
 //Program #: 6 
 //Due Date: February 24th, 2016
-//Colleagues : I did stop into the tutors for more print issues. I was
-//struggling with grouping the letters and out of bounds.
+//Colleagues : None
 
-
-        Scanner get = new Scanner (System.in);
+       
 
 
         char ch;
