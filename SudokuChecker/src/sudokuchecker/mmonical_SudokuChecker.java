@@ -5,6 +5,9 @@
  */
 package sudokuchecker;
 
+import java.io.File;
+import java.util.Scanner;
+
 /**
  *
  * @author mike
@@ -28,9 +31,21 @@ public class mmonical_SudokuChecker {
      * @param inputFile a String containing the input file name
      * @return no return type at all
      */
-    public mmonical_SudokuChecker (String : filename)
+    public mmonical_SudokuChecker (String : inputFile)
     {
-        // TODO code application logic here
+        try{
+            grid [][] 
+          
+            Scanner keyboard = new Scanner(System.in);
+            String inputFile;
+            System.out.println("Enter input filename: ");
+            inputFile = keyboard.next();
+            
+            
+
+            File file = new File( inputFile );
+            input = new Scanner( file );
+            numSquare = input.nextInt();
     }
     
     /**
